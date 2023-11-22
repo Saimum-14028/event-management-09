@@ -3,13 +3,14 @@ import MainLayout from "./MainLayout";
 import Home from "./Home";
 import ServiceDetails from "./ServiceDetails";
 import MyEvents from "./MyEvents";
+import ErrorPage from "./ErrorPage";
 
 const myCreatedRoute =  createBrowserRouter([
     {
 
         path : "/",
         element : <MainLayout></MainLayout>,
-        // errorElement: <ErrorPage></ErrorPage>,
+        errorElement: <ErrorPage></ErrorPage>,
          children : [
             {
                 path : "/",
