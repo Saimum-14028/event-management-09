@@ -7,7 +7,7 @@ const Donation = () => {
     const handledonation = e => {
         e.preventDefault();
         const amount = e.target.amount.value;
-        console.log(amount);
+    //    console.log(amount);
 
         if(amount>0){
             swal("Done!", "Thanks for your donation!", "success");

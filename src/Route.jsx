@@ -5,6 +5,9 @@ import ServiceDetails from "./ServiceDetails";
 import MyEvents from "./MyEvents";
 import ErrorPage from "./ErrorPage";
 import Donation from "./Donation";
+import Login from "./Login";
+import Register from "./Register";
+import PrivateRoute from "./PrivateRoute";
 
 const myCreatedRoute =  createBrowserRouter([
     {
@@ -19,28 +22,28 @@ const myCreatedRoute =  createBrowserRouter([
             },
             {
                 path : "/my events",
-                //element : <PrivateRoute><MyEvents></MyEvents></PrivateRoute>
-                element : <MyEvents></MyEvents>
+                element : <PrivateRoute><MyEvents></MyEvents></PrivateRoute>
+                //element : <MyEvents></MyEvents>
             },
             {
                 path : "/donation",
-               // element : <PrivateRoute><Donation></Donation></PrivateRoute>
-               element : <Donation></Donation>
+                element : <PrivateRoute><Donation></Donation></PrivateRoute>
+              // element : <Donation></Donation>
             },
              {
                 path : "service/:id",
-               // element : <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
-                element : <ServiceDetails></ServiceDetails>,
+                element : <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
+              //  element : <ServiceDetails></ServiceDetails>,
                 loader:()=>fetch('/data.json')
             },
-        //     {
-        //         path: "login",
-        //         element : <Login></Login>
-        //     },
-        //     {
-        //     path: "register",
-        //     element : <Register></Register>
-        //     },
+            {
+                path: "/login",
+                element : <Login></Login>
+            },
+            {
+            path: "/register",
+            element : <Register></Register>
+            },
          ]
 
     }

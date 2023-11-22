@@ -17,7 +17,7 @@ const MyEvents = () => {
     }, []);
 
     return (
-        <div>
+        <div className='my-10'>
             {noFound ? (
                 <p className="h-full flex justify-center items-center text-5xl font-bold text-red-700">{noFound}</p>
             ) : (

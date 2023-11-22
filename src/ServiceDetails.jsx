@@ -15,7 +15,7 @@ const ServiceDetails = () => {
         setserviceDetails(findserviceDetails);
     }, [id, datas]);
 
-     console.log(id);
+    // console.log(id);
 
     return (
 
