@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "./MainLayout";
 import Home from "./Home";
 import ServiceDetails from "./ServiceDetails";
+import MyEvents from "./MyEvents";
 
 const myCreatedRoute =  createBrowserRouter([
     {
@@ -12,12 +13,13 @@ const myCreatedRoute =  createBrowserRouter([
          children : [
             {
                 path : "/",
-                element : <Home></Home>,
+                element : <Home></Home>
             },
-        //     {
-        //         path : "/my events",
-        //         element : <PrivateRoute><MyEvents></MyEvents></PrivateRoute>
-        //     },
+            {
+                path : "/my events",
+                //element : <PrivateRoute><MyEvents></MyEvents></PrivateRoute>
+                element : <MyEvents></MyEvents>
+            },
         //     {
         //         path : "/donation",
         //         element : <PrivateRoute><Donation></Donation></PrivateRoute>
