@@ -4,6 +4,7 @@ import Home from "./Home";
 import ServiceDetails from "./ServiceDetails";
 import MyEvents from "./MyEvents";
 import ErrorPage from "./ErrorPage";
+import Donation from "./Donation";
 
 const myCreatedRoute =  createBrowserRouter([
     {
@@ -21,10 +22,11 @@ const myCreatedRoute =  createBrowserRouter([
                 //element : <PrivateRoute><MyEvents></MyEvents></PrivateRoute>
                 element : <MyEvents></MyEvents>
             },
-        //     {
-        //         path : "/donation",
-        //         element : <PrivateRoute><Donation></Donation></PrivateRoute>
-        //     },
+            {
+                path : "/donation",
+               // element : <PrivateRoute><Donation></Donation></PrivateRoute>
+               element : <Donation></Donation>
+            },
              {
                 path : "service/:id",
                // element : <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
