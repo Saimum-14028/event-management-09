@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
-                    <a className="btn text-lg">Donate Now</a>
+                    <a className="btn text-lg p-2">Donate Now</a>
                 </div>
                 <div className="navbar-center flex">
                     <ul className="menu-horizontal gap-1 md:gap-5 px-1 text-lg font-semibold">
