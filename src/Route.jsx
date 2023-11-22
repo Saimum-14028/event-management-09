@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "./MainLayout";
+import Home from "./Home";
 
 const myCreatedRoute =  createBrowserRouter([
     {
@@ -8,10 +9,10 @@ const myCreatedRoute =  createBrowserRouter([
         element : <MainLayout></MainLayout>,
         // errorElement: <ErrorPage></ErrorPage>,
          children : [
-        //     {
-        //         path : "/",
-        //         element : <Home></Home>,
-        //     },
+            {
+                path : "/",
+                element : <Home></Home>,
+            },
         //     {
         //         path : "/my events",
         //         element : <PrivateRoute><MyEvents></MyEvents></PrivateRoute>
