@@ -1,0 +1,44 @@
+[
+    {
+      "id": "1",
+      "image": "https://i.ibb.co/tXK7Y5W/pexels-startup-stock-photos-7095.jpg",
+      "title": "Workshop",
+      "description": "Workshops serve as invaluable platforms for interactive and experiential learning, engaging participants in a collaborative and immersive environment. These sessions often incorporate a blend of theoretical insights and practical applications, allowing attendees to actively apply newfound knowledge. Workshops are particularly effective for skill development, providing participants with the opportunity to hone specific competencies through hands-on activities and real-world scenarios. Facilitated by experts in the field, workshops not only deliver content with depth and relevance but also encourage participants to ask questions, fostering a dynamic and participatory learning experience. The emphasis on customization enables workshops to cater to diverse learning needs, ensuring that the content aligns with the unique requirements of the participants. Beyond individual skill enhancement, workshops often promote teamwork and peer-to-peer learning, creating a collaborative atmosphere that extends beyond the duration of the session. Whether focused on technical proficiency, soft skills, or industry-specific knowledge, workshops offer a versatile and effective approach to continuous learning.",
+      "price": 2900
+    },
+    {
+        "id": "2",
+        "image": "https://i.ibb.co/522RwCJ/pexels-ivan-samkov-4238478.jpg",
+        "title": "Webinar",
+        "description": "WWebinars, short for web-based seminars, represent a powerful and flexible platform for disseminating information, hosting presentations, and facilitating interactive discussions online. Conducted through web conferencing tools, webinars allow participants to join remotely from anywhere in the world, eliminating geographical constraints. Typically led by subject matter experts, webinars cover a wide range of topics, from educational content and industry updates to product demonstrations and professional development. They often feature multimedia elements such as slideshows, videos, and live chats, enhancing engagement and interaction among attendees. The convenience of accessing webinars from the comfort of one's own space contributes to their popularity, enabling a broader audience to participate and benefit from the knowledge shared. Additionally, many webinars offer opportunities for real-time Q&A sessions, fostering direct communication between presenters and participants. In today's digital age, webinars have become a vital tool for remote learning, training, and knowledge exchange across diverse fields.",
+        "price": 200
+      },
+      {
+        "id": "3",
+        "image": "https://i.ibb.co/Rjtcxnd/pexels-sora-shimazaki-5673488.jpg",
+        "title": "Career Fair",
+        "description": "Career fairs serve as pivotal events in the professional development landscape, providing a unique platform for job seekers to connect with potential employers and explore diverse career opportunities. These events typically bring together a myriad of companies from various industries, creating a dynamic networking environment. Job seekers can engage in face-to-face interactions with recruiters, inquire about job openings, and gain insights into company cultures. Career fairs often feature informational sessions and workshops to enhance participants' understanding of industry trends, resume building, and interview strategies. Simultaneously, employers benefit by showcasing their organizations, meeting prospective candidates, and identifying talent that aligns with their workforce needs. The atmosphere of a career fair is charged with the energy of possibility, making it a crucial space for forging professional connections and launching careers.",
+        "price": 2000
+      },
+      {
+        "id": "4",
+        "image": "https://i.ibb.co/wcv1wvg/pexels-henri-mathieusaintlaurent-8349431.jpg",
+        "title": "Educational Conference",
+        "description": "Educational conferences stand as vibrant forums where educators, researchers, and professionals converge to share insights, innovations, and best practices in the field of education. These events offer a rich tapestry of workshops, presentations, and discussions, fostering collaboration and knowledge exchange. Educational conferences cover a broad spectrum of topics, ranging from pedagogical approaches and curriculum development to advancements in educational technology and research methodologies. Participants, including teachers, administrators, and policymakers, gain valuable perspectives on the latest trends and challenges shaping education. The collaborative nature of these conferences encourages the cultivation of a community dedicated to improving learning outcomes and refining educational strategies. Whether focused on K-12 education, higher education, or specialized fields within the educational spectrum, these conferences serve as vital hubs for professional development, networking, and the collective pursuit of excellence in education.",
+        "price": 4000
+      },
+      {
+        "id": "5",
+        "image": "https://i.ibb.co/SJxCqVp/pexels-gerd-altmann-21696.jpg",
+        "title": "Training Program",
+        "description": "Training programs constitute structured initiatives designed to equip individuals or teams with specific skills, knowledge, and competencies essential for their professional development. These programs vary widely in scope, ranging from technical skills training to leadership and soft skills development. Typically organized by employers, educational institutions, or training providers, these programs employ diverse instructional methods such as workshops, online modules, and hands-on exercises. Training programs are crafted with clear learning objectives, ensuring participants acquire practical and applicable skills in their respective domains. Successful programs not only enhance individual capabilities but also contribute to organizational effectiveness by aligning workforce skills with business goals. The dynamic and interactive nature of training programs facilitates a comprehensive learning experience, enabling participants to bridge knowledge gaps and stay abreast of industry trends. As organizations increasingly recognize the importance of continuous learning, well-designed training programs emerge as indispensable tools for fostering professional growth and maintaining a competitive edge in today's dynamic job market.",
+        "price": 3000
+      },
+      {
+        "id": "6",
+        "image": "https://i.ibb.co/VBJpDyW/85z-2202-w012-n001-40a-p23-40.jpg",
+        "title": "Hackathon",
+        "description": "A hackathon is an intense, collaborative event that brings together individuals with diverse skills, typically in fields like programming, design, and project management, to collaboratively address and solve complex problems within a set timeframe. Participants, often referred to as hackers, work in teams to create innovative solutions, usually in the form of software prototypes or applications. These events encourage creativity, teamwork, and rapid problem-solving, fostering an environment where participants can push the boundaries of their skills and knowledge. Hackathons may focus on various themes, from technology and coding challenges to social issues and environmental concerns. The competitive yet collaborative nature of hackathons not only leads to the development of innovative solutions but also promotes networking, skill-sharing, and a sense of community among participants. The fast-paced and hands-on approach of hackathons makes them a popular avenue for learning, experimentation, and showcasing the potential of collaborative problem-solving in the tech and innovation landscape.",
+        "price": 5000
+      }
+]
