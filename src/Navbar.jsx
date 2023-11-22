@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="md:w-11/12 mx-auto">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <a className="btn text-lg p-2">Donate Now</a>
